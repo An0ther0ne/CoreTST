@@ -11,7 +11,7 @@ thermal load across all logical cores using AVX2 FMA instructions.
 - Safe overflow handling, denormal penalty prevention (DAZ/FTZ)
 
 ## Requirements
-- Windows 10/11
+- Windows 10 / 11 / Server 2019 / 22
 - MSVC (Visual Studio 2022+)
 - CPU with AVX2 support (optional, auto-detected)
 - Compile with `/arch:AVX2 /O2`
@@ -23,5 +23,4 @@ Run the executable. Press **Enter** to stop the test and let the CPU cool down.
 - Thermal paste/cooler validation after installation
 - Thermal throttling detection
 - Stability testing after overclocking
-- 
-- 
+- VRM (Voltage Regulator Module) power delivery stress-testing
